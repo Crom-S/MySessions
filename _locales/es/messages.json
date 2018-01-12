@@ -1,0 +1,234 @@
+{
+    "cancel": {
+        "message": "Cancelar"
+    },
+    "clickToRestore": {
+        "message": "Click para restaurar la sesión '$name$' en una nueva ventana, ctrl-click (Windows, Linux) o cmd-clic (Mac) para reemplazar la ventana actual",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm": {
+        "message": "Confirmar"
+    },
+    "confirmClose": {
+        "message": "¿Desea abrir esta sesión y cerrar la(s) venta(s) actual(es)? (¡No podrá deshacerlo!)"
+    },
+    "confirmDeleteQuestion": {
+        "message": "¿Desea remover esta sesión?"
+    },
+    "contactUs": {
+        "message": "Contáctanos:"
+    },
+    "crashRestoreTitle": {
+        "message": "Restaurar sesión anterior"
+    },
+    "description": {
+        "description": "The extension description",
+        "message": "¿Necesita gestionar sesiones de manera sencilla? ¿Varios usuarios en el mimso Firefox? MySessions es un sencillo administrador de sesiones entre varios navegadores."
+    },
+    "edit": {
+        "message": "Editar"
+    },
+    "emptySession": {
+        "message": "No se ha seleccionado ninguna ventana en esta sesión"
+    },
+    "enableCrashRecovery": {
+        "message": "Habilitar recuperación por cerrado inesperado"
+    },
+    "enterSessionName": {
+        "message": "Por favor ingrese el nombre de la sesión"
+    },
+    "export": {
+        "message": "Exportar"
+    },
+    "exportedSessionCopyTips": {
+        "message": "Ctrl+c o Cmd+c para copiar la sesión"
+    },
+    "importedSessionTips": {
+        "message": "Pega tu sesión aqui"
+    },
+    "minutes": {
+        "message": "minutes.<br>Recomendado: 5 minutes. Realizar auto-guardado con demasiada<br> frecuencia podría alentar tu dispositivo."
+    },
+    "mySession": {
+        "message": "MySession"
+    },
+    "name": {
+        "description": "Nombre de la extención",
+        "message": "MySessions"
+    },
+    "noSessionSaved": {
+        "message": "No hay sesiones guardadas"
+    },
+    "noSessionToRestore": {
+        "message": "No hay sesiones guardadas."
+    },
+    "options": {
+        "message": "Opciones"
+    },
+    "optionsBackupPeriod": {
+        "message": "Guarda todas las pestañas cada "
+    },
+    "optionsBackupPeriodOutOfRange": {
+        "message": "El tiempo entre backups no puede ser más corto que 1 minuto o más largo que 999"
+    },
+    "optionsDateFormat": {
+        "message": "Formato de fecha:"
+    },
+    "optionsEnableCrashRecovery": {
+        "message": "Habilitar Recuperación en caso de cierre incorrecto"
+    },
+    "optionsNewUserTips": {
+        "message": " "
+    },
+    "optionsPageTitle": {
+        "message": "Opciones de MySessions"
+    },
+    "optionsReorder": {
+        "message": "Mover la sesión al principio de la lista luego de editarla "
+    },
+    "optionsSaved": {
+        "message": "Opciones guardadas"
+    },
+    "popupSizeLabel": {
+        "message": "Tamaño del popup"
+    },
+    "remove": {
+        "message": "Eliminar"
+    },
+    "restorePreviousSession": {
+        "message": "Restaurar sesión anterior"
+    },
+    "restoreSession": {
+        "message": "MySessions"
+    },
+    "restoreSession2": {
+        "message": "Haga clic en para abrir el período de sesiones en nueva ventana"
+    },
+    "restoreSessionButton": {
+        "message": "Restaurar esta ventana"
+    },
+    "restoreSessionButtonDescription": {
+        "message": "Cliquea para restaurar esta ventana" 
+    },
+    "restoreSessionOn": {
+        "message": "Restaurar sesión en "
+    },
+    "save": {
+        "message": "Guardar"
+    },
+    "saveFail": {
+        "message": "Falló el guardado de sesión. Por favor intentelo nuevamente."
+    },
+    "saveSession": {
+        "message": "MySession"
+    },
+    "saveSessionButton": {
+        "message": "Guardar como sesión de MySessions"
+    },
+    "saveSessionButtonDescription": {
+        "message": "Cliquea aquí para guardar como sesión de MySessions"
+    },
+    "savedWindow": {
+        "message": "Ventanas Guardadas ($count$)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "selectAll": {
+        "message": "Seleccionar todo"
+    },
+    "sessionCreated": {
+        "message": "$name$ ha sido creada",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "sessionTextBoxClose": {
+        "message": "Cerrar"
+    },
+    "sessionTextBoxImport": {
+        "message": "Importar sesión"
+    },
+    "sizeWarning": {
+        "message": "* Si el tamaño es demasiado pequeño, puede distorsionar el diseño."
+    },
+    "msEditCancel": {
+        "message": "Cancelar"
+    },
+    "msEditSave": {
+        "message": "Guardar"
+    },
+    "msHeadingNew": {
+        "message": "Pestañas\/ventanas para agregar"
+    },
+    "msHeadingNewTitle": {
+        "message": "Puedes arrastrar pestañas y moverlas entre ventanas"
+    },
+    "msHeadingSaved": {
+        "message": "Guardar sesión (desmarcar para quitar)"
+    },
+    "msHeadingTitle": {
+        "message": "Título"
+    },
+    "msSaveList": {
+        "message": "Demsarque las pestañas que no desea guardar."
+    },
+    "msSaveToggle": {
+        "message": "Invertir selección"
+    },
+    "snapshotHint": {
+        "message": "* 'Snapshot #1' hasta 'Snapshot #5' son sesiónes que fueron salvadas previamente al usar Firefox. Pueden ser utiles si la sesión se ha corrompido o no es la sesión que deseabas restaurar."
+    },
+    "supportUs": {
+        "message": "¡Apoya nuestra extensión y<br>compártela con tus amigos!"
+    },
+    "tabsCount": {
+        "message": " ($count$ pestañas)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "updatedMessage": {
+        "message": "MySessions ha sido actualizado, haga click aquí para saber las novedades"
+    },
+    "Left click will open the tabs sequentially, middle click will open the tabs together.": {
+        "message": "Click izquierdo abrirá las pestañas secuencialmente click del medio abrirá las pestañas juntas."
+    },
+    "Open in a new window.": {
+        "message": "Abrir en ventana nueva."
+    },
+    "Open in current window.": {
+        "message": "Abrir en ventana actual."
+    },
+    "Add to current window.": {
+        "message": "Añadir a ventana actual."
+    },
+    "Save the current session here.": {
+        "message": "Guarda la sesión actual aqui."
+    },
+	"Select tabs to open.": {
+        "message": "Seleccione pestañas para abrir."
+	},
+    "newyear1": {
+        "message": "Feliz Año Nuevo!"
+    },
+    "optionsEnableAutoSave": {
+        "message": "Autoguardar cada "
+    },
+    "stringMinutesAutoSave": {
+        "message": "minutos, número máximo "
+    },
+    "optionsShowAutoSave": {
+        "message": "Mostrar sesiones guardadas automáticamente en la lista de sesiones."
+    }
+}

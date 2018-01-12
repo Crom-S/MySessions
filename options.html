@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title id="title">MySessions Options</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" rel="text/css" href="options.css"/>
+        <style type="text/css">
+            body {
+	/* [disabled]background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd)); */
+            }
+            #pagetitle {
+	color: #76D5F0;
+            }
+            #feature {
+	/* [disabled]background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd)); */
+	color: black;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+            }
+            #options-saved {
+                margin-left: 5px;
+                display: none;
+            }
+
+            #optionsBackupPeriodWrapper {
+                margin-left: 25px;
+            }
+
+            #optionsNewUserTips a, .link a{
+                color: #ddd;
+            }
+            #optionsNewUserTips a:hover, .link a:hover {
+                color: #bbb;
+            }
+        </style>
+        <script type="text/javascript" src="options.js"></script>
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo"></div>
+                <div id="pagetitle">MySessions Options</div>
+            </div>
+
+            <br style="clear:both">
+
+            <div id="feature">
+                
+
+               
+                <input id="crashRestore" type="checkbox">
+                <span id="optionsEnableCrashRecovery">Enable Crash Recovery</span>
+               
+                <div id="optionsBackupPeriodWrapper">
+                    <span id="optionsBackupPeriod">Saves all your windows and tabs every </span> <input id="backupPeriod" maxlength="3" style="width: 50px; border-radius: 9px; height: 20px;"> <span id="stringMinutes">minutes.<br/>Recommended: 5 minutes. Auto-saving too<br/> frequently may slow down your machine.</span>
+                </div>
+                <br/>
+                <input id="AutoSave" type="checkbox">
+                <span id="optionsEnableAutoSave">Autosave every </span><input id="AutoSavePeriod" maxlength="3" style="width: 35px; border-radius: 9px; height: 20px;"> <span id="stringMinutesAutoSave">minutes, maximum number </span><input id="AutoSaveNumber" maxlength="3" style="width: 35px; border-radius: 9px; height: 20px;">
+                <br/>
+                <input id="ShowAutoSaveAutoSave" type="checkbox">
+                <span id="optionsShowAutoSave">Show autosaved sessions in the session list. </span>
+                <br/>
+                <br/>
+                <span id="optionsDateFormat">Date format:</span>
+                <select id="dateFormatSelect" name="dateFormat" size="1">
+                    <option selected="selected" value="1">dd/mm/yyyy</option>
+                    <option value="2">mm/dd/yyyy</option>
+                    <option value="3">yyyy-mm-dd</option>
+                </select>
+               
+                <br/>
+                <span id="optionsReorder">Move session to top after edit</span>:
+                <input id="editOrder" type="checkbox" checked>
+                <br/>
+                
+                
+                
+                <br/>
+                <button id="saveBtn"><span id="stringSave">Save</span></button>
+                <span id="options-saved">Options saved</span>
+                <div id="donat"><span><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFPZ564TRKNLL" style="float: left; clear: none; position: relative; /* [disabled]margin-bottom: 10px; */">
+     <img src="/img/btn_donate_SM.gif" draggable="false"/>
+    </a></span></div>
+               
+            </div>
+            <div>
+                Bug report or suggestions? Go to <a href="mailto:balyaev@gmail.com">email</a>.
+            </div>
+
+    </body>
+</html>
+

@@ -1,0 +1,113 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>      
+    <link rel="stylesheet" rel="text/css" href="popup.css"/>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+    <div id="mainDiv" style="border: 0px; margin: 0px; width: 100%; height: 100%; position: relative; /* [disabled]overflow: hidden; */ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; float: left; min-width: 0px;">
+        
+      <div id="msbase">
+          <div id="mssavebase">
+            
+            <div id="mssavelistDiv" title="Uncheck tabs that you don't want to be saved.">
+              <h4 id="mssaveToggleH4">
+                <input id="mssavetoggle" type="checkbox" title="Toggle Selection" style="float:left;">
+                <span class="msWinblabel" id="selectAll">Select All</span> </h4>
+              <div id="mssavelist"></div>
+            </div>
+          </div>
+<div id="msrestorebase">
+      <div id="msrestorebaseDiv">
+                    <div id="msrestoreicon"></div>
+                    <div id="msrestoreicon2" class="dimmed"></div>
+                    <div id="msrestorelabel">MySessions</div>
+                    <div id="msrestorelabel2">Click to open in new window
+                    </div>
+                    
+                    
+      </div>
+
+                <div id="msrestorelistwrapper">
+                  <div id="msrestorelist"></div>
+                  
+                    <div id="mseditsession">
+                        <h4 class="h4">
+                            <span id="msheadingtitle">Title</span>
+                        </h4>
+                        <input id="mstitle" type="text" maxlength="100">
+                        
+                        <div id="mseditlist2" class="mseditlist">
+                            <h4 class="h4">                                
+                                <span id="msheadingsaved">Saved Tabs (uncheck to remove)</span>
+                                <input id="mseditsavedtoggle" type="checkbox" title="Toggle Selection" style="float:left;" checked>
+                            </h4>                        
+                            <div id="mslistoriginal" class="mseditlist">                            
+                            </div>
+                        </div>
+
+                       
+
+                        <h4 class="mseditHead">
+                            <span id="msheadingnew" title="You can drag and drop tabs between windows">Tabs to Add</span><input id="mseditnewtoggle" type="checkbox" title="Toggle Selection" style="float:left;">
+                        </h4>
+                        <div id="mseditlist1" class="mseditlist">
+                        </div>
+                        <p>
+                        <div id="mseditcontrols">
+                            <input id="mseditsave" type="button" value="Save">
+                            <input id="mseditcancel" type="button" value="Cancel">
+                            <input id="mseditremove" type="button" value="Remove">
+                            <div id ="msselecttab" class="msmenu">Add to current window.</div>
+                        </div>
+
+                        
+                        
+                        
+                    </div>
+                </div>
+				
+               <div id="msrestorebaseDiv">
+                   
+                    <div id="msrestoretopbar">
+                        
+                        <div id="importBtn"  class="restoretopbarbtn">Import</div>
+                        <div id="msrestorecrash"  class="restoretopbarbtn">Crash Recovery</div>
+                        <div id="msrestorecrashon"  class="restoretopbarbtn">On</div>
+                        <div id="msrestorecrashoff"  class="restoretopbarbtn">Off</div>
+                    </div>
+                    <div id="mssavetitle">
+                <input id="savetitle" value="MySession" maxlength="100" tabindex="1" autofocus>
+              </div>
+              <div id="mssavebutton" class="dimmed"></div>
+      </div>
+               
+                <div id="footnote">
+                    
+                </div>
+
+                <div id="sessionTextBox">
+                    <span id="sessionTextBoxCloseBtn"></span>
+                    <div id="sessionTextBoxTips"></div>
+                    <textArea id="sessionTextBoxTextArea"></textArea>
+                    <div id="sessionTextBoxBottomBar">
+                       <span id="importSessionBtnf">
+                            <img id="importSessionBtnIcon" src="/img/import.png">
+                            <span id="importSessionBtnfText">Import file</span>
+                            
+                        </span>
+                        <span id="importSessionBtn">
+                            <img id="importSessionBtnIcon" src="/img/import.png">
+                            <span id="importSessionBtnText">Import session</span>
+                            
+                        </span>
+                        
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+

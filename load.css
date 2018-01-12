@@ -1,0 +1,332 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	position: relative;
+	/* [disabled]background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ccc)); */
+	border-radius: 0;
+	height: 50px;
+	border-spacing: 0 0px;
+	border-collapse: separate;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+
+#Icon {
+	position: absolute;
+	left: 20px;
+	/* background-image: url(url(/img/icon48.png)); */
+}
+
+#ImporttextBox{
+	position: absolute;
+	left: 100px;
+	font-family: Verdana, Arial, Tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	height: 50px;
+	color: #76D5F0;
+	padding-top: 10px;
+}
+
+#sessionList{
+    width:100%;   
+}
+.sessionLabel{
+	color: #00FF5C;
+	cursor: pointer;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: overline;
+	text-shadow: 0px 0px 0px;
+}
+#snapshotHint, #message, .note{
+	font-size: smaller;
+	padding: 5px;
+	color: #76D5F0;
+}
+#donat {
+	position: relative;
+	padding-bottom: 10px;
+}
+#crashWindowBox {
+	width: 800px;
+	height: 100%;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+
+.crashSessionDiv {
+	border: 1px solid #bbb;
+	width: 800px;
+	/* [disabled]-webkit-border-radius: 5px; */
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+.titleDiv {
+	position: relative;
+	width: 790px;
+	margin-bottom: 5px;
+	padding: 5px 0px 5px 10px;
+	border-radius: 0;
+	color: #76D5F0;
+	height: 30px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%);
+	/* background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%); */
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%);
+}
+
+.tabbox {
+    display: block;
+    padding: 0px 0px 5px 5px;
+    min-height: 20px;
+    line-height: 15px;
+    font: 12px Verdana, Arial, Tahoma;
+    overflow: hidden;
+}
+.tabbox:hover {
+	background: #ffd;
+	/* [disabled]height: 100%; */
+}
+.tabbox img {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-bottom: -4px;
+}
+.tabbox span {
+    margin-left: 5px;
+}
+
+.crashWindow {
+    position:relative;
+    width:100%;
+    padding: 5px 5px 0px 5px;
+   
+    font-weight: bold;
+    font-size:14px;
+    font-family:Verdana, Arial, Tahoma;
+}
+
+.sessionbutton {
+	display: inline-block;
+	margin: 2px 0px 0px 8px;
+	padding: 5px 10px;
+	/* [disabled]-webkit-border-radius: 8px; */
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	font: 12px Verdana, Arial, Tahoma;
+	color: #555;
+	/* [disabled]background: #ddd; */
+	cursor: pointer;
+	float: right;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+.sessionbutton:hover {
+	color: #555;
+	/* [disabled]background: #eee; */
+}
+.buttonContainer {
+	position: absolute;
+	top: 5px;
+	padding: 5px;
+	right: 5px;
+}
+/* Restore session list */
+
+#msrestorelistwrapper {
+	position: relative;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	height: 70%;
+	-webkit-border-radius: 3px;
+	border: 0 solid #999999;
+	overflow: hidden;
+	/* background-position: left top, left bottom, from(#eee), to(#ddd)); */
+	/* [disabled]background-color: -webkit-gradient(; */
+	border-radius: 0;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+	resize: vertical;
+}
+
+#msrestorelist, #mseditsession {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-radius: 0;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+	resize: vertical;
+}
+.nosessionsaved {
+    color: black;
+    font: 14px Verdana, Arial, Tahoma, sans-serif;
+}
+
+.mssessionblock {
+    width:350px;
+    height:30px;
+    padding:2px;
+    cursor: pointer;
+    border-bottom:1px solid #DEDEDE;
+    position: relative;
+}
+.mssessionblock:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+}
+.mssessionlabel {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width:350px;
+    height:18px;
+    font: 12px Verdana, Arial, Tahoma, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    overflow:hidden;
+}
+.mssessiontitle {
+    float: left;
+    max-width: 200px;
+    max-height: 30px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mssessioncount {
+	float: left;
+	font-size: 10px;
+	color: #9FA3F3;
+	margin-left: 5px;
+}
+.mssessiontimelabel {
+    position:absolute;
+    left: 10px;
+    top: 18px;
+    width:100px;
+    height:15px;
+    font: 10px Verdana, Arial, Tahoma, sans-serif;
+    color:#9999CC;
+    overflow:hidden;
+}
+
+/* Edit session panel/list */
+
+#mseditsession {    
+    background: white;
+    font: 12px Verdana, Arial, Tahoma, sans-serif;
+    display: none;
+}
+#mseditsession h4 {
+	color: #005;
+	margin: 5px 5px 3px 5px;
+	background-color: activecaption;
+	height: 40px;
+}
+#mstitle {
+	width: 100%;
+	margin: 5px;
+}
+#mseditcontrols {
+    margin: 10px 5px 5px 5px;
+}
+.mseditlist {
+    margin: 5px;
+}
+.mseditlist .mstablabel {
+	/*width: 340px;*/
+	width: 95%;
+	text-decoration: none;
+}
+.mseditlist .mstablabel[href]:hover {
+    color: #05f;
+}
+.mseditlist h4 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+}
+#mseditnewtoggle, #mseditsavedtoggle {
+    display: inline-block;
+    margin: 3px 2px -3px;
+    width: 16px;
+    height: 16px;
+    background: url(/img/contrast_high.png);
+}
+/* Save session list */
+
+#mssavelistDiv {
+	position: relative;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	width: 94%;
+	height: 455px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	/* background-position: left top, left bottom, from(#eee), to(#ddd)); */
+	/* [disabled]background-color: -webkit-gradient(; */
+	border: 0 solid #779;
+	-webkit-border-radius: 3px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-radius: 0;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+#mssavelistDiv H4{
+    color: #005;
+    margin:  5px 5px 3px 0px;
+    background-color: activecaption;
+    height: 20px;
+}
+
+.mstabline, .mswinline {
+	/* [disabled]width: 370px; */
+	height: 20px;
+	cursor: pointer;
+}
+.mscheck {
+    float: left;
+}
+
+.mscheck {
+    float: left;
+    margin-left: 15px;
+}
+
+.mswincheck {
+    float: left;
+}
+
+.msWinblabel, .mstablabel {
+	float: left;
+	/*max-width: 330px;*/
+	width: 80%;
+	height: 15px;
+	font: 12px Verdana, Arial, Tahoma, sans-serif;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+}
+.msWinblabel{
+    font-weight: bold;
+}
+.mswspan{
+	color: #9FA3F3;
+}

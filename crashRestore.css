@@ -1,0 +1,140 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	position: relative;
+	/* [disabled]background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ccc)); */
+	border-radius: 0;
+	height: 50px;
+	border-spacing: 0 0px;
+	border-collapse: separate;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+
+#Icon {
+	position: absolute;
+	left: 20px;
+	/* background-image: url(url(/img/icon48.png)); */
+}
+
+#textBox{
+	position: absolute;
+	left: 100px;
+	font-family: Verdana, Arial, Tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	height: 50px;
+	color: #76D5F0;
+	padding-top: 10px;
+}
+
+#sessionList{
+    width:100%;   
+}
+.sessionLabel{
+	color: #00FF5C;
+	cursor: pointer;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: overline;
+	text-shadow: 0px 0px 0px;
+}
+#snapshotHint, #message, .note{
+	font-size: smaller;
+	padding: 5px;
+	color: #76D5F0;
+}
+#donat {
+	position: relative;
+	padding-bottom: 10px;
+}
+#crashWindowBox {
+	width: 800px;
+	height: 100%;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+
+.crashSessionDiv {
+	border: 1px solid #bbb;
+	width: 800px;
+	/* [disabled]-webkit-border-radius: 5px; */
+	padding-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+.titleDiv {
+	position: relative;
+	width: 790px;
+	margin-bottom: 5px;
+	padding: 5px 0px 5px 10px;
+	border-radius: 0;
+	color: #76D5F0;
+	height: 30px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%);
+	/* background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%); */
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(234,250,255,1.00) 0%,rgba(247,247,248,1.00) 100%);
+}
+
+.tabbox {
+    display: block;
+    padding: 0px 0px 5px 5px;
+    min-height: 20px;
+    line-height: 15px;
+    font: 12px Verdana, Arial, Tahoma;
+    overflow: hidden;
+}
+.tabbox:hover {
+	background: #ffd;
+	/* [disabled]height: 100%; */
+}
+.tabbox img {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-bottom: -4px;
+}
+.tabbox span {
+    margin-left: 5px;
+}
+
+.crashWindow {
+    position:relative;
+    width:100%;
+    padding: 5px 5px 0px 5px;
+   
+    font-weight: bold;
+    font-size:14px;
+    font-family:Verdana, Arial, Tahoma;
+}
+
+.sessionbutton {
+	display: inline-block;
+	margin: 2px 0px 0px 8px;
+	padding: 5px 10px;
+	/* [disabled]-webkit-border-radius: 8px; */
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	font: 12px Verdana, Arial, Tahoma;
+	color: #555;
+	/* [disabled]background: #ddd; */
+	cursor: pointer;
+	float: right;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+.sessionbutton:hover {
+	color: #555;
+	/* [disabled]background: #eee; */
+}
+.buttonContainer {
+	position: absolute;
+	top: 5px;
+	padding: 5px;
+	right: 5px;
+}

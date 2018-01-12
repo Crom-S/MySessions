@@ -1,0 +1,234 @@
+{
+    "cancel": {
+        "message": "Anuluj"
+    },
+    "clickToRestore": {
+        "message": "Kliknij lewym przyciskiem myszy aby otworzyć menu. Kliknij środkowy przycisk, aby przywrócić sesję '$name$' w nowym oknie, przytrzymując klawisz ctrl (Windows, Linux) lub cmd (Mac) i kliknij, w bieżącym oknie",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm": {
+        "message": "Potwierdzić"
+    },
+    "confirmClose": {
+        "message": "Open this session and close current window(s)? (Cannot undo!)"
+    },
+    "confirmDeleteQuestion": {
+        "message": "Jesteś pewien, że chcesz usunąć tę sesję?"
+    },
+    "contactUs": {
+        "message": "Contact us:"
+    },
+    "crashRestoreTitle": {
+        "message": "Przywróć Poprzednią Sesję"
+    },
+    "description": {
+        "description": "The extension description",
+        "message": "Need simple session management? Several users on the same Firefox? MySessions is a simple cross browser session manager."
+    },
+    "edit": {
+        "message": "Edytuj"
+    },
+    "emptySession": {
+        "message": "Okienko nie jest zaznaczone w tej sesji"
+    },
+    "enableCrashRecovery": {
+        "message": "Włączyć odzyskiwania po awarii"
+    },
+    "enterSessionName": {
+        "message": "Proszę, wpisz nazwę sesji"
+    },
+    "export": {
+        "message": "Eksport"
+    },
+    "exportedSessionCopyTips": {
+        "message": "Ctrl + c lub Cmd + c, aby skopiować sesji"
+    },
+    "importedSessionTips": {
+        "message": "Wklej tutaj sesji"
+    },
+    "minutes": {
+        "message": "minut. <br>Zalecane: 5 minut. Automatyczne zapisywanie zbyt <br>często może spowolnić komputer."
+    },
+    "mySession": {
+        "message": "MySession"
+    },
+    "name": {
+        "description": "The extension name",
+        "message": "MySessions"
+    },
+    "noSessionSaved": {
+        "message": "Nie ma sesji uratował"
+    },
+    "noSessionToRestore": {
+        "message": "Nie ma zapisanych sesji."
+    },
+    "options": {
+        "message": "Opcje"
+    },
+    "optionsBackupPeriod": {
+        "message": "Saves all your windows and tabs every "
+    },
+    "optionsBackupPeriodOutOfRange": {
+        "message": "Okres tworzenia kopii zapasowych nie może być krótszy niż 1 minuta lub większa niż 999 minut"
+    },
+    "optionsDateFormat": {
+        "message": "Format daty:"
+    },
+    "optionsEnableCrashRecovery": {
+        "message": "Włączyć odzyskiwania po awarii"
+    },
+    "optionsNewUserTips": {
+        "message": " "
+    },
+    "optionsPageTitle": {
+        "message": "Opcje MySessions"
+    },
+    "optionsReorder": {
+        "message": "Move session to top after edit"
+    },
+    "optionsSaved": {
+        "message": "Ustawienia zapisane"
+    },
+    "popupSizeLabel": {
+        "message": "Popup Size"
+    },
+    "remove": {
+        "message": "Usunąć"
+    },
+    "restorePreviousSession": {
+        "message": "Przywróć poprzednią sesję"
+    },
+    "restoreSession": {
+        "message": "MySessions"
+    },
+    "restoreSession2": {
+        "message": "Kliknij, aby otworzyć sesji w nowym oknie"
+    },
+    "restoreSessionButton": {
+        "message": "Przywrócić ten okno"
+    },
+    "restoreSessionButtonDescription": {
+        "message": "Kliknij, aby przywrócić ten okno"
+    },
+    "restoreSessionOn": {
+        "message": "Restore session on "
+    },
+    "save": {
+        "message": "Zapisz"
+    },
+    "saveFail": {
+        "message": "Nie można zapisywać sesji. Proszę, spróbuj ponownie później"
+    },
+    "saveSession": {
+        "message": "MySession"
+    },
+    "saveSessionButton": {
+        "message": "Zapisz jako sesję MySessions"
+    },
+    "saveSessionButtonDescription": {
+        "message": "Kliknij tutaj, aby zapisać to jako nową sesję MySessions"
+    },
+    "savedWindow": {
+        "message": "Zapisanego Okna ($count$)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "selectAll": {
+        "message": "Zaznacz wszystko"
+    },
+    "sessionCreated": {
+        "message": "$name$ stworzony",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "sessionTextBoxClose": {
+        "message": "Zamknij"
+    },
+    "sessionTextBoxImport": {
+        "message": "Sesja import"
+    },
+    "sizeWarning": {
+        "message": "* If the size is too small, it may distort the layout."
+    },
+    "msEditCancel": {
+        "message": "Anuluj"
+    },
+    "msEditSave": {
+        "message": "Zapisz"
+    },
+    "msHeadingNew": {
+        "message": "Zakładki\/okna Dodaj"
+    },
+    "msHeadingNewTitle": {
+        "message": "You can drag and drop tabs between windows"
+    },
+    "msHeadingSaved": {
+        "message": "Saved Session (uncheck to remove)"
+    },
+    "msHeadingTitle": {
+        "message": "Nazwa"
+    },
+    "msSaveList": {
+        "message": "Uncheck tabs that you don't want to be saved."
+    },
+    "msSaveToggle": {
+        "message": "Toggle Selection"
+    },
+    "snapshotHint": {
+        "message": "* 'Snapshot #1' up to 'Snapshot #5' are sessions that are saved in an earlier Firefox use. You may find them helpful if the most recent session is corrupted or is not exactly what you want."
+    },
+    "supportUs": {
+        "message": "Support our development and<br>share to your friends!"
+    },
+    "tabsCount": {
+        "message": " ($count$ tabs)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "updatedMessage": {
+        "message": "MySessions is updated, click here to see what's new"
+    },
+    "Left click will open the tabs sequentially, middle click will open the tabs together.": {
+        "message": "Left click will open the tabs sequentially, middle click will open the tabs together."
+    },
+    "Open in a new window.": {
+        "message": "Otwórz w nowym oknie."
+    },
+    "Open in current window.": {
+        "message": "Otwórz w obecnym oknie."
+    },
+    "Add to current window.": {
+        "message": "Dodaj do obecnym oknie."
+    },
+    "Save the current session here.": {
+        "message": "Zapisz bieżącą sesję tutaj."
+    },
+	"Select tabs to open.": {
+        "message": "Select tabs to open."
+	},
+    "newyear1": {
+        "message": "Szczesliwego Nowego Roku!"
+    },
+    "optionsEnableAutoSave": {
+        "message": "Autosave every "
+    },
+    "stringMinutesAutoSave": {
+        "message": "minutes, maximum number "
+    },
+    "optionsShowAutoSave": {
+        "message": "Show autosaved sessions in the session list."
+    }
+}

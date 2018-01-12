@@ -1,0 +1,45 @@
+{
+  "description": "A simple session manager. You can quickly save your current browser state and reload it whenever necessary.",
+  "manifest_version": 2,
+  "name": "MySessions",
+  "short_name": "MS",
+  "version": "2.4.7",
+    "background": {
+        "scripts": ["background.js"]
+    },
+	"applications": {
+  "gecko": {
+    "id": "balyaev@gmail.com"
+  }
+},
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png" 
+    },
+	"options_ui": {
+    "page": "options.html"
+	},
+	"page_action": {
+    "default_icon": "img/icon16.png",
+    "browser_style": true
+	},
+    "browser_action": {
+        "default_icon": {
+		"19": "img/icon19.png",
+		"38": "img/icon38.png"
+		},
+        "default_title": "MySessions",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+		"activeTab",
+        "tabs",
+		"storage",
+		"sessions",
+        "bookmarks",        
+        "unlimitedStorage"
+    ],
+    "default_locale": "en"
+}
+

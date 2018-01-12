@@ -1,0 +1,234 @@
+{
+    "cancel": {
+        "message": "Zrušit"
+    },
+    "clickToRestore": {
+        "message": "Levým tlačítkem myši otevřete menu. Klikněte na prostřední tlačítko obnovit relaci \"$name$\" v novém okně, Ctrl (Windows, Linux) nebo klávesou cmd (Mac) v aktuálním okně",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm": {
+        "message": "Potvrdit"
+    },
+    "confirmClose": {
+        "message": "Open this session and close current window(s)? (Cannot undo!)"
+    },
+    "confirmDeleteQuestion": {
+        "message": "Opravdu že chcete odstranit tuto relaci?"
+    },
+    "contactUs": {
+        "message": "Contact us:"
+    },
+    "crashRestoreTitle": {
+        "message": "Obnovit předchozí relaci"
+    },
+    "description": {
+        "description": "The extension description",
+        "message": "Need simple session management? Several users on the same Firefox? MySessions is a simple cross browser session manager."
+    },
+    "edit": {
+        "message": "Edit"
+    },
+    "emptySession": {
+        "message": "Žádné okno je vybrán v této relaci"
+    },
+    "enableCrashRecovery": {
+        "message": "Umožnit zotavení z havárie"
+    },
+    "enterSessionName": {
+        "message": "Zadejte název relace"
+    },
+    "export": {
+        "message": "Export"
+    },
+    "exportedSessionCopyTips": {
+        "message": "Ctrl + c nebo Cmd + c kopírovat vaši relaci"
+    },
+    "importedSessionTips": {
+        "message": "Vložit své zasedání zde"
+    },
+    "minutes": {
+        "message": "minut. <br>Doporučeno: 5 minut. Automatické ukládání příliš <br>často může zpomalit počítač."
+    },
+    "mySession": {
+        "message": "MySession"
+    },
+    "name": {
+        "description": "The extension name",
+        "message": "MySessions"
+    },
+    "noSessionSaved": {
+        "message": "Žádné sezení zachránil"
+    },
+    "noSessionToRestore": {
+        "message": "Neexistují žádné uložené relace."
+    },
+    "options": {
+        "message": "Možnosti"
+    },
+    "optionsBackupPeriod": {
+        "message": "Uloží všechna okna a karty každý "
+    },
+    "optionsBackupPeriodOutOfRange": {
+        "message": "Interval zálohování nemůže být kratší než 1 minuta nebo větší než 999 minut"
+    },
+    "optionsDateFormat": {
+        "message": "Formát data:"
+    },
+    "optionsEnableCrashRecovery": {
+        "message": "Umožnit Zotavení Z Havárie"
+    },
+    "optionsNewUserTips": {
+        "message": " "
+    },
+    "optionsPageTitle": {
+        "message": "MySessions Možnosti"
+    },
+    "optionsReorder": {
+        "message": "Přesun zasedání na nejvyšší po editaci"
+    },
+    "optionsSaved": {
+        "message": "Možnosti zachránil"
+    },
+    "popupSizeLabel": {
+        "message": "Popup Size"
+    },
+    "remove": {
+        "message": "Odstranit"
+    },
+    "restorePreviousSession": {
+        "message": "Obnovit předchozí relaci"
+    },
+    "restoreSession": {
+        "message": "MySessions"
+    },
+    "restoreSession2": {
+        "message": "Klepnutím otevřete relaci v novém okně"
+    },
+    "restoreSessionButton": {
+        "message": "Obnovit toto okno"
+    },
+    "restoreSessionButtonDescription": {
+        "message": "Click to restore this window"
+    },
+    "restoreSessionOn": {
+        "message": "Restore session on "
+    },
+    "save": {
+        "message": "Uložit"
+    },
+    "saveFail": {
+        "message": "Nepodařilo se uložit relaci. Opakujte akci později"
+    },
+    "saveSession": {
+        "message": "MySession"
+    },
+    "saveSessionButton": {
+        "message": "Uložit jako MySessions zasedání"
+    },
+    "saveSessionButtonDescription": {
+        "message": "Klikněte zde na uložit jako nový MySessions zasedání"
+    },
+    "savedWindow": {
+        "message": "Uložená okno ($count$)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "selectAll": {
+        "message": "Vybrat vše"
+    },
+    "sessionCreated": {
+        "message": "$name$ vytvořil",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "sessionTextBoxClose": {
+        "message": "Zavřít"
+    },
+    "sessionTextBoxImport": {
+        "message": "Import session"
+    },
+    "sizeWarning": {
+        "message": "* If the size is too small, it may distort the layout."
+    },
+    "msEditCancel": {
+        "message": "Zrušit"
+    },
+    "msEditSave": {
+        "message": "Uložit"
+    },
+    "msHeadingNew": {
+        "message": "Karty\/Windows přidat"
+    },
+    "msHeadingNewTitle": {
+        "message": "Můžete přetáhnout záložky mezi okny"
+    },
+    "msHeadingSaved": {
+        "message": "Uložené Relace (zrušte zaškrtnutí políčka odstranit)"
+    },
+    "msHeadingTitle": {
+        "message": "Titul"
+    },
+    "msSaveList": {
+        "message": "Zrušte zaškrtnutí karty, které nechcete uložit."
+    },
+    "msSaveToggle": {
+        "message": "Přepnout výběr"
+    },
+    "snapshotHint": {
+        "message": "* 'Snapshot #1' up to 'Snapshot #5' are sessions that are saved in an earlier Firefox use. You may find them helpful if the most recent session is corrupted or is not exactly what you want."
+    },
+    "supportUs": {
+        "message": "Support our development and<br>share to your friends!"
+    },
+    "tabsCount": {
+        "message": " ($count$ karty)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "updatedMessage": {
+        "message": "MySessions is updated, click here to see what's new"
+    },
+    "Left click will open the tabs sequentially, middle click will open the tabs together.": {
+        "message": "Levým tlačítkem myši se otevře karty postupně, kliknutí prostředním tlačítkem se otevře karty dohromady."
+    },
+    "Open in a new window.": {
+        "message": "Otevřít v novém okně."
+    },
+    "Open in current window.": {
+        "message": "Otevřít v aktuálním okně."
+    },
+    "Add to current window.": {
+        "message": "Přidáte do aktuálního okna."
+    },
+    "Save the current session here.": {
+        "message": "Uložte aktuální relaci."
+    },
+	"Select tabs to open.": {
+        "message": "Select tabs to open."
+	},
+    "newyear1": {
+        "message": "Scastny Novy Rok!"
+    },
+    "optionsEnableAutoSave": {
+        "message": "Autosave every "
+    },
+    "stringMinutesAutoSave": {
+        "message": "minutes, maximum number "
+    },
+    "optionsShowAutoSave": {
+        "message": "Show autosaved sessions in the session list."
+    }
+}

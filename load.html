@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title id="Impotrtitle">Impotr SM Session</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="load.css" />        
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="jquery-ui.min.js"></script>
+        <script type="text/javascript" src="load.js"></script>
+    </head>
+    <body>
+        <br/>
+        <div id="header">
+            <img id="Icon" src="/img/icon48.png">
+            <span id="ImporttextBox">Import "Session Manager" session</span>
+        </div>   
+        <br style="clear:both"/>
+        <div id="content"> 
+           	<input type="file" id="file" />
+			
+           
+           <div id="msrestorelistwrapper">
+                  <div id="msrestorelist"></div>
+                  
+                    <div id="mseditsession">
+                        <h4>
+                            <span id="msheadingtitle">Title</span>
+                        </h4>
+                        <input id="mstitle" type="text" maxlength="100">
+
+                        <h4 class="mseditHead">
+                            <span id="msheadingnew" title="You can drag and drop tabs between windows">Tabs to Add</span><input id="mseditnewtoggle" type="checkbox" title="Toggle Selection" style="float:left;">
+                        </h4>
+                        <div id="mseditlist1" class="mseditlist">
+                        </div>
+
+                        <div id="mseditlist2" class="mseditlist">
+                            <h4>                                
+                                <span id="msheadingsaved">Saved Tabs (uncheck to remove)</span>
+                                <input id="mseditsavedtoggle" type="checkbox" title="Toggle Selection" style="float:left;" checked>
+                            </h4>                        
+                            <div id="mslistoriginal" class="mseditlist">                            
+                            </div>
+                        </div>
+
+                        <div id="mseditcontrols">
+                            <input id="mseditsave" type="button" value="Save">
+<!--
+                            <input id="mseditcancel" type="button" value="Cancel">
+                            <input id="mseditremove" type="button" value="Remove">
+-->
+                        </div>
+                    </div>
+                </div>
+           
+            
+            <br/><br/><br/>
+            <div id="donat"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFPZ564TRKNLL" style="float: left">
+     <img src="/img/btn_donate_SM.gif" draggable="false"/>
+    </a></div>
+            <br/><br/><br/>
+        </div>
+    </body>
+</html>
+

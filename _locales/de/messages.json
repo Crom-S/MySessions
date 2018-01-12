@@ -1,0 +1,234 @@
+{
+    "cancel": {
+        "message": "Abbrechen"
+    },
+    "clickToRestore": {
+        "message": "Klicken Sie links, um das Menü zu öffnen. Klicken Sie mit der mittleren Taste, um die Sitzung «$name$» in einem neuen Fenster wiederherzustellen, Strg-Klick (Windows, Linux) oder cmd-Klick (Mac) im aktuellen Fenster.",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm": {
+        "message": "Bestätigen"
+    },
+    "confirmClose": {
+        "message": "Diese Sitzung öffnen und aktuelle Fenster schließen? (Kann nicht rückgängig gemacht werden!)"
+    },
+    "confirmDeleteQuestion": {
+        "message": "Sind Sie sicher, dass Sie diese Sitzung entfernen möchten?"
+    },
+    "contactUs": {
+        "message": "Kontaktieren Sie uns:"
+    },
+    "crashRestoreTitle": {
+        "message": "Vorherige Sitzung wiederherstellen"
+    },
+    "description": {
+        "description": "The extension description",
+        "message": "Benötigen Sie eine einfache Sitzungsverwaltung? Mehrere Benutzer mit demselben Firefox? MySessions ist ein einfacher browserübergreifender Sitzungsmanager."
+    },
+    "edit": {
+        "message": "Bearbeiten"
+    },
+    "emptySession": {
+        "message": "In dieser Sitzung ist kein Fenster ausgewählt."
+    },
+    "enableCrashRecovery": {
+        "message": "Absturzwiederherstellung aktivieren"
+    },
+    "enterSessionName": {
+        "message": "Bitte geben Sie den Namen der Sitzung ein"
+    },
+    "export": {
+        "message": "Exportieren"
+    },
+    "exportedSessionCopyTips": {
+        "message": "Strg+c oder Cmd+c zum Kopieren der Sitzung"
+    },
+    "importedSessionTips": {
+        "message": "Fügen Sie Ihre Sitzung hier ein"
+    },
+    "minutes": {
+        "message": "Minuten.<br>Empfohlen: 5 Minuten. Ein zu häufiges<br> automatisches Speichern kann Ihre Maschine verlangsamen."
+    },
+    "mySession": {
+        "message": "MySession"
+    },
+    "name": {
+        "description": "The extension name",
+        "message": "MySessions"
+    },
+    "noSessionSaved": {
+        "message": "Keine Sitzungen gespeichert"
+    },
+    "noSessionToRestore": {
+        "message": "Es gibt keine gespeicherten Sitzungen."
+    },
+    "options": {
+        "message": "Optionen"
+    },
+    "optionsBackupPeriod": {
+        "message": "Speichert all Ihre Fenster und Tabs alle "
+    },
+    "optionsBackupPeriodOutOfRange": {
+        "message": "Sicherungszeitraum darf nicht kürzer als 1 Minute oder größer als 999 Minuten sein"
+    },
+    "optionsDateFormat": {
+        "message": "Datumsformat:"
+    },
+    "optionsEnableCrashRecovery": {
+        "message": "Absturzwiederherstellung aktivieren"
+    },
+    "optionsNewUserTips": {
+        "message": " "
+    },
+    "optionsPageTitle": {
+        "message": "MySessions-Optionen"
+    },
+    "optionsReorder": {
+        "message": "Sitzung nach dem Bearbeiten nach oben verschieben"
+    },
+    "optionsSaved": {
+        "message": "Optionen gespeichert"
+    },
+    "popupSizeLabel": {
+        "message": "Popup-Größe"
+    },
+    "remove": {
+        "message": "Entfernen"
+    },
+    "restorePreviousSession": {
+        "message": "Vorherige Sitzung wiederherstellen"
+    },
+    "restoreSession": {
+        "message": "MySessions"
+    },
+    "restoreSession2": {
+        "message": "Klicken Sie, um die Sitzung in einem neuen Fenster zu öffnen"
+    },
+    "restoreSessionButton": {
+        "message": "Dieses Fenster wiederherstellen"
+    },
+    "restoreSessionButtonDescription": {
+        "message": "Klicken Sie, um dieses Fenster wiederherzustellen"
+    },
+    "restoreSessionOn": {
+        "message": "Sitzung wiederherstellen bei "
+    },
+    "save": {
+        "message": "Speichern"
+    },
+    "saveFail": {
+        "message": "Sitzung kann nicht gespeichert werden. Bitte versuchen Sie es später noch einmal"
+    },
+    "saveSession": {
+        "message": "MySession"
+    },
+    "saveSessionButton": {
+        "message": "Als MySessions-Sitzung speichern"
+    },
+    "saveSessionButtonDescription": {
+        "message": "Klicken Sie hier, um diese als neue MySessions-Sitzung zu speichern."
+    },
+    "savedWindow": {
+        "message": "Gespeicherte Fenster ($count$)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "selectAll": {
+        "message": "Alles auswählen"
+    },
+    "sessionCreated": {
+        "message": "$name$ erstellt",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "sessionTextBoxClose": {
+        "message": "Schließen"
+    },
+    "sessionTextBoxImport": {
+        "message": "Sitzung importieren"
+    },
+    "sizeWarning": {
+        "message": "* Wenn die Größe zu klein ist, kann es zu einer Verzerrung des Layouts kommen."
+    },
+    "msEditCancel": {
+        "message": "Abbrechen"
+    },
+    "msEditSave": {
+        "message": "Speichern"
+    },
+    "msHeadingNew": {
+        "message": "Zu hinzufügende Tabs/Fenster"
+    },
+    "msHeadingNewTitle": {
+        "message": "Sie können Tabs per Ziehen und Ablegen zwischen Fenstern verschieben"
+    },
+    "msHeadingSaved": {
+        "message": "Gespeicherte Sitzung (zum Entfernen Häkchen entfernen)"
+    },
+    "msHeadingTitle": {
+        "message": "Titel"
+    },
+    "msSaveList": {
+        "message": "Entfernen Sie das Häkchen bei Tabs, die nicht gespeichert werden sollen."
+    },
+    "msSaveToggle": {
+        "message": "Auswahl umschalten"
+    },
+    "snapshotHint": {
+        "message": "* 'Schnappschuss #1' bis hin zu 'Schnappschuss #5' sind Sitzungen, die bei einer früheren Firefox-Nutzung gespeichert wurden. Sie könnten nützlich sein, wenn die letzte Sitzung beschädigt oder nicht genau das ist, was Sie wollen."
+    },
+    "supportUs": {
+        "message": "Unterstützen Sie unsere Entwicklung<br>und teilen Sie sie mit Ihren Freunden!"
+    },
+    "tabsCount": {
+        "message": " ($count$-Tabs)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "updatedMessage": {
+        "message": "MySessions wird aktualisiert. Klicken Sie hier, um zu erfahren, was es Neues gibt."
+    },
+    "Left click will open the tabs sequentially, middle click will open the tabs together.": {
+        "message": "Linksklick öffnet die Tabs nacheinander, Mittelklick öffnet die Tabs zusammen."
+    },
+    "Open in a new window.": {
+        "message": "In einem neuen Fenster öffnen."
+    },
+    "Open in current window.": {
+        "message": "Im aktuellen Fenster öffnen."
+    },
+    "Add to current window.": {
+        "message": "Zum aktuellen Fenster hinzufügen."
+    },
+    "Save the current session here.": {
+        "message": "Aktuelle Sitzung hier speichern."
+    },
+	"Select tabs to open.": {
+        "message": "Wählen Sie die zu öffnenden Register aus."
+	},
+    "newyear1": {
+        "message": "Frohes neues Jahr!"
+    },
+    "optionsEnableAutoSave": {
+        "message": "Autosave alle "
+    },
+    "stringMinutesAutoSave": {
+        "message": "Minuten, maximale Anzahl "
+    },
+    "optionsShowAutoSave": {
+        "message": "Zeigen Sie automatisch gespeicherte Sitzungen in der Sitzungsliste an."
+    }
+}

@@ -1,0 +1,697 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+}
+/* Update notice */
+
+#updateNotifier {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 380px;
+    margin: 0px;
+    padding: 4px 2px 6px 2px;
+
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0px 0px 8px black;
+
+    color: black;
+    font: bold 12px Verdana, Arial, Tahoma;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+
+    z-index: 9999;
+    display:none;
+}
+
+#updateNotifier:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffd), to(#eec));
+    color: #03f;
+}
+
+/* Layout */
+
+#msbase {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	/* [disabled]border-color: #76D5F0; */
+	/* [disabled]border-style: solid; */
+	/* [disabled]border-width: 1px; */
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+	/* [disabled]left: 5px; */
+	/* [disabled]top: 0px; */
+}
+
+#mssavebase {
+	top: 0px;
+	-webkit-user-select: none;
+	height: 100%;
+	width: 50%;
+	/* user-select: none; */
+}
+
+#msrestorebase {
+	top: 0px;
+	-webkit-user-select: none;
+	/* user-select: none; */
+	left: 50%;
+	height: 100%;
+	width: 50%;
+}
+
+#mssavebase, #msrestorebase {
+	display: block;
+	position: absolute;
+	border: 0 solid #777;
+	width: 50%;
+	height: 99%;
+	/* [disabled]-webkit-border-radius: 5px; */
+	/* background-position: left top, left bottom, from(#bbb), to(#999)); */
+	background-color: #FFFFFF;
+}
+/* Save session panel */
+
+#mssaveicon {
+    position:absolute;
+    top:10px;
+    left:12px;
+    width:48px;
+    height:48px;
+}
+#mssavelabel {
+	position: relative;
+	top: 9px;
+	width: 300px;
+	height: 22px;
+	line-height: 18px;
+	font: bold 18px Verdana, Arial, Tahoma, sans-serif;
+	color: #76D5F0;
+	overflow: hidden;
+	left: 5px;
+}
+#mssavetitle {
+	position: absolute;
+	top: 30px;
+	width: 260px;
+	height: 18px;
+	left: 10px;
+}
+#mssavebutton {
+	position: absolute;
+	right: 15px;
+	width: 60px;
+	height: 60px;
+	background: url(/img/save.png);
+	top: -2px;
+}
+#mssavetoggle {
+    /* vertical-align: center; */
+}
+
+/* Save session list */
+
+#mssavelistDiv {
+	position: relative;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	width: 96%;
+	height: 97%;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	/* background-position: left top, left bottom, from(#eee), to(#ddd)); */
+	/* [disabled]background-color: -webkit-gradient(; */
+	border: 0 solid #779;
+	-webkit-border-radius: 3px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-radius: 0;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+#mssavelistDiv H4{
+    color: #005;
+    margin:  5px 5px 3px 0px;
+    background-color: activecaption;
+    height: 20px;
+}
+
+.mstabline, .mswinline {
+	width: 100%;
+	height: 20px;
+	cursor: pointer;
+}
+.mscheck {
+    float: left;
+}
+.msicon {
+	float: left;
+	width: 15px;
+	height: 15px;
+}
+
+.mscheck {
+	float: left;
+	margin-left: 2px;
+}
+
+.mswincheck {
+	float: left;
+	margin-left: 2px;
+}
+
+.msWinblabel, .mstablabel {
+	float: left;
+	/*max-width: 330px;*/
+	width: 89%;
+	height: 15px;
+	font: 12px Verdana, Arial, Tahoma, sans-serif;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+}
+.msWinblabel{
+    font-weight: bold;
+}
+.mswspan{
+	color: #9FA3F3;
+}
+
+/* Restore session panel */
+
+#msrestoreicon {
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 48px;
+	height: 48px;
+	background: url(/img/icon48.png);
+}
+
+#msrestoreicon2 {
+	/* [disabled]position: absolute; */
+	top: 10px;
+	left: 290px;
+	width: 48px;
+	height: 48px;
+	background: url(/img/manage.png);
+	cursor: pointer;
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+#msrestorelabel {
+	position: absolute;
+	top: 8px;
+	left: 70px;
+	height: 23px;
+	line-height: 18px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Tahoma;
+	color: #76D5F0;
+	overflow: hidden;
+}
+#msrestorelabel2 {
+	position: absolute;
+	top: 30px;
+	left: 70px;
+	height: 28px;
+	line-height: 14px;
+	font-size: 12px !important; /* some user said it is clipped, font size problem? */
+	font-family: Verdana, Arial, Tahoma;
+	color: #76D5F0;
+	width: 220px;
+    
+}
+#msrestoretopbar {
+	position: absolute;
+	left: 8px;
+	overflow: hidden;
+}
+.restoretopbarbtn {
+	display: inline-block;
+	position: relative;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid rgba(0,0,0,0.33);
+	border-radius: 0;
+	/* -moz-border-radius: 2px; */
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #666;
+	text-align: center;
+	background-image: url(url);
+	-webkit-box-shadow: inset 0 4px 4px #E9E9E9;
+	/* -moz-box-shadow: inset 0 4px 4px rgba(255,255,255,0.25); */
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.33);
+	font-family: Verdana, Arial, Tahoma;
+	box-shadow: inset 0 4px 4px #E9E9E9;
+	/* [disabled]background-color: #76D5F0; */
+	padding-bottom: 3px;
+}
+
+#options, #importBtn, #msrestorecrash{
+    cursor: pointer;
+}
+#options:hover, #importBtn:hover, #msrestorecrash:hover{
+	color: #333;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+	/* [disabled]background-color: #76D5F0; */
+}
+
+#msrestorecrashon {
+	left: -5px;
+	min-width: 20px;
+	max-width: 20px;
+	padding: 2px 2px 2px 2px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#00aa00),to(#55ff55));
+	border-radius: 9px;
+	color: #fff;
+}
+
+#msrestorecrashoff {
+	left: -5px;
+	min-width: 20px;
+	max-width: 20px;
+	padding: 2px 2px 2px 2px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#aa0000),to(#ff5555));
+	border-radius: 9px;
+	color: #fff;
+}
+
+/* Restore session list */
+
+#msrestorelistwrapper {
+	position: relative;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	height: 80%;
+	-webkit-border-radius: 3px;
+	border: 0 solid #999999;
+	overflow: hidden;
+	/* background-position: left top, left bottom, from(#eee), to(#ddd)); */
+	/* [disabled]background-color: -webkit-gradient(; */
+	border-radius: 0;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+
+#msrestorelist, #mseditsession {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-radius: 0;
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+}
+.nosessionsaved {
+    color: black;
+    font: 14px Verdana, Arial, Tahoma, sans-serif;
+}
+
+.mssessionblock {
+	width: 100%;
+	height: 30px;
+	padding: 2px;
+	cursor: pointer;
+	border-bottom: 1px solid #DEDEDE;
+	position: relative;
+}
+.mssessionblock:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bbb));
+}
+
+.msmenu {
+	width: 100%;
+	height: 25px;
+	padding: 2px;
+	cursor: pointer;
+	border-bottom: 1px double #7E82D0;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	font-weight: bolder;
+}
+.msmenu:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bbb));
+}
+
+.mssessionlabel {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width:350px;
+    height:18px;
+    font: 12px Verdana, Arial, Tahoma, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    overflow:hidden;
+}
+.mssessiontitle {
+	float: left;
+	max-width: 220px;
+	max-height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.mssessioncount {
+	float: left;
+	font-size: 10px;
+	color: #9FA3F3;
+	margin-left: 5px;
+}
+.mssessiontimelabel {
+	position: absolute;
+	left: 10px;
+	top: 18px;
+	width: 150px;
+	height: 15px;
+	font: 10px Verdana, Arial, Tahoma, sans-serif;
+	color: #0000FB;
+	overflow: hidden;
+}
+
+/* Edit session panel/list */
+
+#mseditsession {    
+    background: white;
+    font: 12px Verdana, Arial, Tahoma, sans-serif;
+    display: none;
+}
+#mseditsession h4 {
+	color: #005;
+	margin: 5px 5px 3px 5px;
+	background-color: activecaption;
+	height: 40px;
+}
+#mstitle {
+    width: 200px;
+    margin: 5px;
+}
+#mseditcontrols {
+    margin: 10px 5px 5px 5px;
+}
+.mseditlist {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.mseditlist .mstablabel {
+	/*width: 340px;*/
+	width: 89%;
+	text-decoration: none;
+}
+.mseditlist .mstablabel[href]:hover {
+	color: #05f;
+	width: auto;
+}
+.mseditlist h4 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+}
+#mseditnewtoggle, #mseditsavedtoggle {
+    display: inline-block;
+    margin: 3px 2px -3px;
+    width: 16px;
+    height: 16px;
+    background: url(/img/contrast_high.png);
+}
+/* Confirm Box*/
+
+.confirmBox {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 200px;
+	height: 100px;
+	border: 1px solid #777;
+	/* [disabled]-webkit-border-radius: 5px; */
+	-webkit-box-shadow: 2px 2px 2px 1px #9A9A9A;
+	color: #333;
+	box-shadow: 2px 2px 2px 1px #9A9A9A;
+	background-color: #FFFFFF;
+}
+
+.messageBox {
+	padding: 10px;
+	height: 50px;
+	font: bold 10px Verdana, Arial, Tahoma, sans-serif;
+	-webkit-box-shadow: 0px 0px #FFFFFF;
+	box-shadow: 0px 0px #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.confirmButton {
+	position: absolute;
+	width: 54px;
+	height: 14px;
+	padding: 3px;
+	top: 70px;
+	left: 30px;
+	border: 1px solid #777;
+	/* [disabled]background: #eee; */
+	font: 10px Verdana, Arial, Tahoma, sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+
+.confirmButton:hover {
+	/* [disabled]background-color: #ddd; */
+	-webkit-box-shadow: 2px 2px 2px 1px;
+	box-shadow: 2px 2px 2px 1px;
+}
+
+.cancelButton {
+	position: absolute;
+	width: 54px;
+	height: 14px;
+	padding: 3px;
+	top: 70px;
+	right: 30px;
+	border: 1px solid #777;
+	/* [disabled]background: #eee; */
+	font: 10px Verdana, Arial, Tahoma, sans-serif;
+	text-align: center;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+
+.cancelButton:hover {
+	-webkit-box-shadow: 2px 2px 2px 1px;
+	box-shadow: 2px 2px 2px 1px;
+}
+/* exported session*/
+
+#sessionTextBox {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 20px;
+	display: none;
+	-webkit-box-shadow: 2px 2px 2px 1px #777;
+	box-shadow: 2px 2px 2px 1px #777;
+	background-color: #FFFFFF;
+}
+
+#SessionTextBoxTextArea {
+    width: 100%;
+    height: 170px;
+}
+
+#sessionTextBoxCloseBtn {
+    float: right;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+    margin: 4px;
+    background-image: url(/img/cross.png);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255,255,255,0);
+}
+
+
+#sessionTextBoxCloseBtn:hover {
+    border: 1px solid #777;
+    background-color: white;
+    opacity: 1;
+}
+
+
+#importSessionBtn {
+    float: right;
+    cursor: pointer;
+    width: 120px;
+    height: 16px;
+    padding: 1px;
+    margin: 2px;
+    
+    border: 1px solid rgba(255,255,255,0);
+}
+
+#importSessionBtn:hover {
+    border: 1px solid #777;
+    background-color: white;
+    opacity: 1;
+}
+
+#importSessionBtnf {
+    float: left;
+    cursor: pointer;
+    width: 120px;
+    height: 16px;
+    padding: 1px;
+    margin: 2px;
+    
+    border: 1px solid rgba(255,255,255,0);
+}
+
+#importSessionBtnf:hover {
+    border: 1px solid #777;
+    background-color: white;
+    opacity: 1;
+}
+
+#importSessionBtnIcon {
+    float: left;
+    margin-left: 3px;
+}
+
+#importSessionBtnText {
+    float: left;
+    font: bold 10px Verdana, Arial, Tahoma, sans-serif;
+    height: 20px;
+    margin-left: 3px;
+    padding: 2px;
+}
+
+#importSessionBtnfText {
+    float: left;
+    font: bold 10px Verdana, Arial, Tahoma, sans-serif;
+    height: 20px;
+    margin-left: 3px;
+    padding: 2px;
+}
+
+#sessionTextBoxTips {
+    padding: 4px;
+    height: 14px;
+    width: 100%;
+    font: bold 12px Verdana, Arial, Tahoma, sans-serif;
+}
+/* Other controls */
+
+.controls {
+    position:absolute;
+    width: 100px;
+    right: 35px;
+    top: 1px;
+    display: none;
+}
+.mssessionblock:hover .controls {
+    display: block;
+}
+.control {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    margin: 1px;
+    border: 1px solid #ddd;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+.control:hover {
+    border: 1px solid #777;
+    background-color: white;
+    opacity: 1;
+}
+.mssessionedit {
+    background-image: url(/img/comment_edit.png);
+}
+.mssessionremove {
+    background-image: url(/img/cross.png);
+}
+.mssessionexport {
+    background-image: url(/img/export.png);
+}
+.tooltip {
+    clear: both;
+    height: 12px;
+    font: 10px Verdana, Arial, Tahoma, sans-serif;
+    color: #333;
+    margin: 1px 0px 0px 3px;
+    text-align: right;
+}
+
+/* Other controls */
+
+.dimmed {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.dimmed:hover {
+    opacity: 1.0;
+}
+.dimmed[disabled="true"] {
+    opacity: 0.25;
+    cursor: default;
+}
+
+#alertIcon{
+    position: relative; top: 3px; left: -2px;
+}
+
+#mssavebaseDiv{
+    position:relative;
+    height:60px;
+}
+
+#savetitle{
+	width: 90%;
+	left: 10px;
+	border-radius: 9px;
+}
+
+#msrestorebaseDiv{
+	position: relative;
+	height: 60px;
+	padding: 0px;
+	margin: 0px;
+	bottom: 0px;
+}
+
+#footnote{
+    position:absolute;height:20px;bottom:0px;padding-left:5px;
+}

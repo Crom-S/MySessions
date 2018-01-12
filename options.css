@@ -1,0 +1,100 @@
+body {
+    border: 0;
+    margin: 0;
+    font-size: 13px;
+}
+* {
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+a {
+    color: #05a;
+}
+ul, ol {
+    margin-bottom: 20px;
+}
+li {
+    margin-bottom: 8px;
+}
+
+/* Blocks */
+
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#header {
+    margin-top: 15px;
+}
+#logo {
+	float: left;
+	width: 48px;
+	height: 48px;
+	background: url(/img/icon48.png);
+}
+#pagetitle {
+    float: left;
+    margin: 10px 0px 0px 20px;
+
+    font: bold 20px Verdana, Arial, Tahoma, sans-serif;
+}
+
+#feature {
+	margin-top: 15px;
+	padding: 15;
+	/* [disabled]-webkit-border-radius: 15px; */
+	font-size: 14px;
+	line-height: 18px;
+}
+#donat {
+	position: relative;
+	padding-bottom: 10px;
+	clear: right;
+	float: right;
+}
+
+#trymore {
+    margin: 20px 0px;
+}
+
+.product {
+    margin-top: 20px;
+}
+.product-link {
+    display: block;
+    float: left;
+    max-width: 320px;
+}
+.product-desc {
+    display: block;
+    float: left;
+    max-width: 460px;
+    margin-left: 20px;
+}
+.product-desc h3 {
+    margin: 0px;
+}
+
+#copyright {
+    margin: 30px 0px;
+
+    font-size: 13px;
+    color: #555;
+}
+
+/* Screenshot frames */
+
+.border {
+    padding: 5px;
+    background: -webkit-gradient(linear, left top, right bottom,
+                                 from(#fff), color-stop(0.75, #eee), to(#999));
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: 2px 2px 8px black;
+}
+.border-right {
+    float: right;
+    margin: 5px 5px 5px 20px;
+}
+.screenshot {
+    -webkit-box-shadow: 0px 0px 2px black inset;
+}

@@ -1,0 +1,234 @@
+{
+    "cancel": {
+        "message": "Отмена"
+    },
+    "clickToRestore": {
+        "message": "Левый клик, чтобы открыть меню. Нажмите среднюю кнопку, чтобы восстановить сессию «$name$» в новом окне, нажмите ctrl (Windows, Linux) или cmd клик (Mac) в текущем окне",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm": {
+        "message": "Да."
+    },
+    "confirmClose": {
+        "message": "Открытие этой сессии и закрытие текущего окна (окон)? (Невозможно отменить)!"
+    },
+    "confirmDeleteQuestion": {
+        "message": "Вы уверены, что хотите удалить эту сессию?"
+    },
+    "contactUs": {
+        "message": "Contact us:"
+    },
+    "crashRestoreTitle": {
+        "message": "Вернуть предыдущую сессию"
+    },
+    "description": {
+        "description": "The extension description",
+        "message": "Need simple session management? Several users on the same Firefox? MySessions is a simple cross browser session manager."
+    },
+    "edit": {
+        "message": "Редактировать"
+    },
+    "emptySession": {
+        "message": "В этом сеансе не выбрано ни одного окна"
+    },
+    "enableCrashRecovery": {
+        "message": "Включить аварийное восстановление"
+    },
+    "enterSessionName": {
+        "message": "Пожалуйста, введите имя сессии"
+    },
+    "export": {
+        "message": "Экспорт"
+    },
+    "exportedSessionCopyTips": {
+        "message": "Ctrl+c or Cmd+c копировать сессию"
+    },
+    "importedSessionTips": {
+        "message": "Вставьте вашу сессию здесь"
+    },
+    "minutes": {
+        "message": "минут.<br>Рекомендация: 5 минут. Частое автосохранение<br> может затормозить Ваш компьютер."
+    },
+    "mySession": {
+        "message": "MySession"
+    },
+    "name": {
+        "description": "The extension name",
+        "message": "MySessions"
+    },
+    "noSessionSaved": {
+        "message": "Сессия не сохранена"
+    },
+    "noSessionToRestore": {
+        "message": "Нет сохраненных сессий."
+    },
+    "options": {
+        "message": "Параметры"
+    },
+    "optionsBackupPeriod": {
+        "message": "Сохранять все Ваши окна и вкладки каждые "
+    },
+    "optionsBackupPeriodOutOfRange": {
+        "message": "Период резервного копирования не может быть меньше 1 минуты или более 999 минут"
+    },
+    "optionsDateFormat": {
+        "message": "Формат даты:"
+    },
+    "optionsEnableCrashRecovery": {
+        "message": "Включить аварийное восстановление"
+    },
+    "optionsNewUserTips": {
+        "message": " "
+    },
+    "optionsPageTitle": {
+        "message": "MySessions параметры"
+    },
+    "optionsReorder": {
+        "message": "Переместить сессию наверх после редактирования"
+    },
+    "optionsSaved": {
+        "message": "Параметры сохранены"
+    },
+    "popupSizeLabel": {
+        "message": "Popup Size"
+    },
+    "remove": {
+        "message": "Удалить"
+    },
+    "restorePreviousSession": {
+        "message": "Вернуть предыдущую сессию"
+    },
+    "restoreSession": {
+        "message": "MySessions"
+    },
+    "restoreSession2": {
+        "message": "Нажмите, чтобы открыть сессию в новом окне"
+    },
+    "restoreSessionButton": {
+        "message": "Восстановить это окно"
+    },
+    "restoreSessionButtonDescription": {
+        "message": "Кликните, чтобы восстановить это окно"
+    },
+    "restoreSessionOn": {
+        "message": "Restore session on "
+    },
+    "save": {
+        "message": "Сохранить"
+    },
+    "saveFail": {
+        "message": "Не удастся сохранить сессии. Пожалуйста, повторите попытку позже"
+    },
+    "saveSession": {
+        "message": "MySession"
+    },
+    "saveSessionButton": {
+        "message": "Сохранить как MySessions сессию"
+    },
+    "saveSessionButtonDescription": {
+        "message": "Нажмите здесь, чтобы сохранить это как новая сессия MySessions"
+    },
+    "savedWindow": {
+        "message": "Сохраненное окно ($count$)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "selectAll": {
+        "message": "Выбрать все"
+    },
+    "sessionCreated": {
+        "message": "создать $name$",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "sessionTextBoxClose": {
+        "message": "Закрыть"
+    },
+    "sessionTextBoxImport": {
+        "message": "Импорт сессии"
+    },
+    "sizeWarning": {
+        "message": "* If the size is too small, it may distort the layout."
+    },
+    "msEditCancel": {
+        "message": "Отмена"
+    },
+    "msEditSave": {
+        "message": "Сохранить"
+    },
+    "msHeadingNew": {
+        "message": "Вкладки\/окна для добавления"
+    },
+    "msHeadingNewTitle": {
+        "message": "Вы можете перетаскивать вкладки между окнами"
+    },
+    "msHeadingSaved": {
+        "message": "Сохраненные сессии (снимите флажок, чтобы удалить)"
+    },
+    "msHeadingTitle": {
+        "message": "Название"
+    },
+    "msSaveList": {
+        "message": "Снимите флажки с вкладок, которые вы не хотите сохранять."
+    },
+    "msSaveToggle": {
+        "message": "Переключить выбор"
+    },
+    "snapshotHint": {
+        "message": "* ' Снимок #1' до «снимок #5' число сеансов, которые сохраняются в более ранних использования Firefox. Вы можете найти их полезными, если последней сессии повреждена или не совсем то, что вы хотите."
+    },
+    "supportUs": {
+        "message": "Support our development and<br>share to your friends!"
+    },
+    "tabsCount": {
+        "message": " ($count$ вкладок)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "updatedMessage": {
+        "message": "MySessions is updated, click here to see what's new"
+    },
+    "Left click will open the tabs sequentially, middle click will open the tabs together.": {
+        "message": "Левый клик откроет вкладки последовательно, средний клик откроет вкладки вместе."
+    },
+    "Open in a new window.": {
+        "message": "Открыть в новом окне."
+    },
+    "Open in current window.": {
+        "message": "Открыть в текущем окне."
+    },
+    "Add to current window.": {
+        "message": "Добавить к текущему окну."
+    },
+    "Save the current session here.": {
+        "message": "Сохранить текущую сессию здесь."
+    },
+	"Select tabs to open.": {
+        "message": "Выбрать вкладки для открытия."
+	},
+    "newyear1": {
+        "message": "С Новым Годом!"
+    },
+    "optionsEnableAutoSave": {
+        "message": "Сохранять каждые "
+    },
+    "stringMinutesAutoSave": {
+        "message": "минут, максимальное количество "
+    },
+    "optionsShowAutoSave": {
+        "message": "Показывать автосохраненные сессии в списке сессий."
+    }
+}

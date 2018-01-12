@@ -1,0 +1,234 @@
+{
+    "cancel": {
+        "message": "Annuleren"
+    },
+    "clickToRestore": {
+        "message": "Links klik om het menu te openen. Klik op de middelste knop om te herstellen van de '$name$' - sessie in een nieuw venster geopend, houdt u ctrl (Windows, Linux) of cmd-toets (Mac) in het huidige venster",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm": {
+        "message": "Confirm"
+    },
+    "confirmClose": {
+        "message": "Open this session and close current window(s)? (Cannot undo!)"
+    },
+    "confirmDeleteQuestion": {
+        "message": "Weet u zeker dat u wilt verwijderen van deze sessie?"
+    },
+    "contactUs": {
+        "message": "Neem contact met ons op:"
+    },
+    "crashRestoreTitle": {
+        "message": "Herstel vorige Sessie"
+    },
+    "description": {
+        "description": "The extension description",
+        "message": "Kunt u wel een simpele Sessie manager gebruiken? Heeft u meerdere gebruikers op Firefox? Dan is MySessions de oplossingen, de simpele Sessie manager."
+    },
+    "edit": {
+        "message": "Bewerk"
+    },
+    "emptySession": {
+        "message": "No window is selected in this session"
+    },
+    "enableCrashRecovery": {
+        "message": "Inschakelen crash recovery"
+    },
+    "enterSessionName": {
+        "message": "Please enter the name of the session"
+    },
+    "export": {
+        "message": "Export"
+    },
+    "exportedSessionCopyTips": {
+        "message": "Ctrl+c or Cmd+c to copy your session"
+    },
+    "importedSessionTips": {
+        "message": "Paste your session here"
+    },
+    "minutes": {
+        "message": "minutes.<br>Recommended: 5 minutes. Auto-saving too<br> frequently may slow down your machine."
+    },
+    "mySession": {
+        "message": "MySession"
+    },
+    "name": {
+        "description": "The extension name",
+        "message": "MySessions"
+    },
+    "noSessionSaved": {
+        "message": "Geen Sessies Opgeslagen"
+    },
+    "noSessionToRestore": {
+        "message": "There are no saved sessions."
+    },
+    "options": {
+        "message": "Opties"
+    },
+    "optionsBackupPeriod": {
+        "message": "Sla alle windows en tabs op elke "
+    },
+    "optionsBackupPeriodOutOfRange": {
+        "message": "De back-up periode kan niet korter zijn dan 1 minuut of langer 999 minuten"
+    },
+    "optionsDateFormat": {
+        "message": "Date format:"
+    },
+    "optionsEnableCrashRecovery": {
+        "message": "Zet Crash Herstellen aan"
+    },
+    "optionsNewUserTips": {
+        "message": " "
+    },
+    "optionsPageTitle": {
+        "message": "MySessions Opties"
+    },
+    "optionsReorder": {
+        "message": "Move session to top after edit"
+    },
+    "optionsSaved": {
+        "message": "Uw Opties zijn opgeslagen"
+    },
+    "popupSizeLabel": {
+        "message": "Popup Size"
+    },
+    "remove": {
+        "message": "Verwijder"
+    },
+    "restorePreviousSession": {
+        "message": "Herstel laatste Sessie"
+    },
+    "restoreSession": {
+        "message": "Sessie Herstellen"
+    },
+    "restoreSession2": {
+        "message": "Klik om te openen in nieuwe window, ctrl-click (Win, Linux) of cmd-click (Mac) om te openen in huidige window."
+    },
+    "restoreSessionButton": {
+        "message": "Restore this window"
+    },
+    "restoreSessionButtonDescription": {
+        "message": "Click to restore this window"
+    },
+    "restoreSessionOn": {
+        "message": "Restore session on "
+    },
+    "save": {
+        "message": "Opslaan"
+    },
+    "saveFail": {
+        "message": "Fail to save session. Please try again later"
+    },
+    "saveSession": {
+        "message": "Sessie Opslaan"
+    },
+    "saveSessionButton": {
+        "message": "Save as MySessions session"
+    },
+    "saveSessionButtonDescription": {
+        "message": "Click here to save this as a new MySessions session"
+    },
+    "savedWindow": {
+        "message": "Saved Window ($count$)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "selectAll": {
+        "message": "Select All"
+    },
+    "sessionCreated": {
+        "message": "$name$ created",
+        "placeholders": {
+            "name": {
+                "content": "$1"
+            }
+        }
+    },
+    "sessionTextBoxClose": {
+        "message": "Close"
+    },
+    "sessionTextBoxImport": {
+        "message": "Import session"
+    },
+    "sizeWarning": {
+        "message": "* If the size is too small, it may distort the layout."
+    },
+    "msEditCancel": {
+        "message": "Annuleren"
+    },
+    "msEditSave": {
+        "message": "Opslaan"
+    },
+    "msHeadingNew": {
+        "message": "Tabbladen\/Windows toe te voegen"
+    },
+    "msHeadingNewTitle": {
+        "message": "You can drag and drop tabs between windows"
+    },
+    "msHeadingSaved": {
+        "message": "Opgeslagen Tabbladden (Deselecteer om te verwijderen)"
+    },
+    "msHeadingTitle": {
+        "message": "Titel"
+    },
+    "msSaveList": {
+        "message": "Deselecteer de Tabs die je niet wilt opslaan."
+    },
+    "msSaveToggle": {
+        "message": "Toggle selectie"
+    },
+    "snapshotHint": {
+        "message": "* 'Snapshot #1' up to 'Snapshot #5' are sessions that are saved in an earlier Firefox use. You may find them helpful if the most recent session is corrupted or is not exactly what you want."
+    },
+    "supportUs": {
+        "message": "Ondersteun onze ontwikkeling en <br> vertel het je vrienden!"
+    },
+    "tabsCount": {
+        "message": " ($count$ tabs)",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "updatedMessage": {
+        "message": "MySessions is bijgewerk, klik hier op te zien wat er nieuw is"
+    },
+    "Left click will open the tabs sequentially, middle click will open the tabs together.": {
+        "message": "Left click will open the tabs sequentially, middle click will open the tabs together."
+    },
+    "Open in a new window.": {
+        "message": "Open in een nieuw venster."
+    },
+    "Open in current window.": {
+        "message": "Open in bestaand venster."
+    },
+    "Add to current window.": {
+        "message": "Toevoegen aan huidige venster."
+    },
+    "Save the current session here.": {
+        "message": "De huidige sessie opslaan hier."
+    },
+	"Select tabs to open.": {
+        "message": "Select tabs to open."
+	},
+    "newyear1": {
+        "message": "Gelukkig Nieuwеjaar!"
+    },
+    "optionsEnableAutoSave": {
+        "message": "Autosave every "
+    },
+    "stringMinutesAutoSave": {
+        "message": "minutes, maximum number "
+    },
+    "optionsShowAutoSave": {
+        "message": "Show autosaved sessions in the session list."
+    }
+}

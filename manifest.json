@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "MySessions",
   "short_name": "MS",
-  "version": "2.4.7",
+  "version": "2.4.9",
     "background": {
         "scripts": ["background.js"]
     },

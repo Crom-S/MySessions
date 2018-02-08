@@ -39,6 +39,7 @@ function save_options() {
         .InitSettings();
 		browser.extension.getBackgroundPage()
         .changeBackupSetting();
+		console.log(S);
 }
 
 InitSettings().then(function () {
@@ -138,12 +139,7 @@ function init() {
         .html(getMessage("popupSizeLabel")), $("#sizeWarning")
         .html(getMessage("sizeWarning")), $(optionsReorder)
         .html(getMessage("optionsReorder"));
-	$( "#optionsEnableAutoSave" )
-        .html( getMessage( "optionsEnableAutoSave" ) );
-	$( "#stringMinutesAutoSave" )
-        .html( getMessage( "stringMinutesAutoSave" ) );
-	$( "#optionsShowAutoSave" )
-        .html( getMessage( "optionsShowAutoSave" ) );
+	
     $("#crashRestore")
         .change(function() {
             $(this)
@@ -167,7 +163,13 @@ function init() {
             a == "0.9" || a == "1" ? $("#customPopupSize")
                 .prop("disabled", !0) : $("#customPopupSize")
                 .prop("disabled", !1)
-        })
+        });
+	$( "#optionsEnableAutoSave" )
+        .html( getMessage( "optionsEnableAutoSave" ) );
+	$( "#stringMinutesAutoSave" )
+        .html( getMessage( "stringMinutesAutoSave" ) );
+	$( "#optionsShowAutoSave" )
+        .html( getMessage( "optionsShowAutoSave" ) );
 }
 
 browser.storage.onChanged.addListener(InitSettings);

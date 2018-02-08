@@ -51,7 +51,7 @@
         "message": "Fügen Sie Ihre Sitzung hier ein"
     },
     "minutes": {
-        "message": "Minuten.<br>Empfohlen: 5 Minuten. Ein zu häufiges<br> automatisches Speichern kann Ihre Maschine verlangsamen."
+        "message": "Minuten.<br>Empfohlen: 5 Minuten. Ein zu häufiges automatisches Speichern<br> kann Ihren Rechner verlangsamen."
     },
     "mySession": {
         "message": "MySession"
@@ -223,12 +223,12 @@
         "message": "Frohes neues Jahr!"
     },
     "optionsEnableAutoSave": {
-        "message": "Autosave alle "
+        "message": "Automatisch Speichern alle "
     },
     "stringMinutesAutoSave": {
         "message": "Minuten, maximale Anzahl "
     },
     "optionsShowAutoSave": {
-        "message": "Zeigen Sie automatisch gespeicherte Sitzungen in der Sitzungsliste an."
+        "message": "Automatisch gespeicherte Sitzungen in der Sitzungsliste anzeigen."
     }
 }
